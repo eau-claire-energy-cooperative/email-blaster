@@ -2,4 +2,8 @@ recipients:
   - recipemail@domain.com
 subject: "Test Message"
 message: >-
-  This is a test message that can contain <b>HTML</b> if you want. 
+  This is a test message that can contain <b>HTML</b> if you want.<br><br>
+  You can also use template functions like today is {{ current_date().strftime('%A, %m/%d') }}
+  or custom variables like <b>{{ vars.custom_variable }}</b>
+template_vars:
+  custom_variable: "this is a custom variable"

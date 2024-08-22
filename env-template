@@ -1,5 +1,5 @@
 HOST = smtp.gmail.com
-PORT = 993
+PORT = 465
 SENDER = Your Name <youremail@domain.com>
 USERNAME = youremail
 PASSWORD = password (or app key)
