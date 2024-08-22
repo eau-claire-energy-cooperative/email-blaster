@@ -1,4 +1,4 @@
-HOST = imap.gmail.com
+HOST = smtp.gmail.com
 PORT = 993
 SENDER = Your Name <youremail@domain.com>
 USERNAME = youremail
