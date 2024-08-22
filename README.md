@@ -6,6 +6,17 @@ Sometimes you just have to blast out some emails. This is a rather simple Python
 
 Message files are configured using YAML and can contain [Jinja templates](https://jinja.palletsprojects.com/en/3.0.x/templates/) to insert dynamic content.
 
+## Table Of Contents
+
+- [Install](#install)
+- [Usage](#usage)
+  - [Setup][#setup]
+  - [Running][#running]
+  - [Google SMTP Relay][#google-smtp-relay]
+- [Templating][#templating]
+  - [Templates In Single Mode][#templates-in-single-mode]
+- [License][#license]
+
 ## Install
 
 This script is installing using a Python [virtual environment](https://docs.python.org/3/library/venv.html) so keep everything as simple as possible. This was tested on a Linux system but would probably work on Windows as long as the requirements are met.
