@@ -1,4 +1,5 @@
 HOST = imap.gmail.com
 PORT = 993
+SENDER = Your Name <youremail@domain.com>
 USERNAME = youremail
 PASSWORD = password (or app key)
