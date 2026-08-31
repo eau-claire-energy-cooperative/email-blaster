@@ -10,12 +10,12 @@ Message files are configured using YAML and can contain [Jinja templates](https:
 
 - [Install](#install)
 - [Usage](#usage)
-  - [Setup][#setup]
-  - [Running][#running]
-  - [Google SMTP Relay][#google-smtp-relay]
-- [Templating][#templating]
-  - [Templates In Single Mode][#templates-in-single-mode]
-- [License][#license]
+  - [Setup](#setup)
+  - [Running](#running)
+  - [Google SMTP Relay](#google-smtp-relay)
+- [Templating](#templating)
+  - [Templates In Single Mode](#templates-in-single-mode)
+- [License](#license)
 
 ## Install
 
