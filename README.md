@@ -15,6 +15,7 @@ Message files are configured using YAML and can contain [Jinja templates](https:
   - [Google SMTP Relay](#google-smtp-relay)
 - [Templating](#templating)
   - [Templates In Single Mode](#templates-in-single-mode)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Install
@@ -111,6 +112,10 @@ When running in __single mode__ you can lookup the name based on the email to au
 ```
 Dear {{ vars.names | lookup_email }}
 ```
+
+## Contributing
+
+Pull Requests will be considered if they address a particular issue or vulnerability.
 
 ## License
 
